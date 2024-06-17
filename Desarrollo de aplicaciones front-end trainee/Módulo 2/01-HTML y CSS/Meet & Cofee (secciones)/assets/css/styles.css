@@ -1,0 +1,21 @@
+header {
+    background-image: url(../img/bg-hero.png);
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-position: center;
+
+    /* Declaraciones para texto */
+    color: white;
+    text-align: right;
+    text-shadow: 0px 3px 4px black;
+    font-family: 'Open Sans', 'Helvetica Neue', sans-serif;
+}
+
+header h1 {
+    font-size: 60px;
+}
+
+header h2 {
+    font-size: 40px;
+    font-weight: lighter;
+}

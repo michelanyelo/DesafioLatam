@@ -1,0 +1,32 @@
+
+div {
+    display: inline;
+}
+
+h1,
+p {
+    display: inline;
+}   
+
+h1 {
+    text-shadow: 5px 5px 10px red;
+}
+
+img{
+    width: 200px;
+    box-shadow: 5px 5px 10px #790b0b59;
+    border-radius: 50%;
+}
+
+.nav-block{
+    margin-top: 20px;
+    margin-bottom: 20px;
+}
+
+.nav-block a{
+    display: block;
+}
+
+img{
+    margin: 50px;
+}
