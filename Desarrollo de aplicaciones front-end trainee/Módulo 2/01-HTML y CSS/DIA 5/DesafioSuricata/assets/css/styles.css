@@ -1,3 +1,45 @@
-.bg-pink{
+.bg-pink {
     background-color: #E83E8C;
+}
+
+body {
+    /* reglas para el texto fuente */
+    font-family: "Open Sans", sans-serif;
+    font-optical-sizing: auto;
+    font-weight: 400;
+    font-style: normal;
+    font-variation-settings: "wdth" 100;
+    color: #212529;
+}
+
+h1 {
+    color: #707070;
+    font-weight: 700;
+}
+
+footer img {
+    height: 5rem;
+}
+
+.icons-section i {
+    font-size: 4rem;
+    padding-left: 20px;
+}
+
+.icons-section h2 {
+    color: white;
+    font-weight: 400;
+
+}
+
+#navbarTop a {
+    color: white !important;
+}
+
+.navbar-toggler {
+    border-color: #FFFFFF80;
+}
+
+.navbar-toggler-icon{
+    color: #FFFFFF7F;
 }
