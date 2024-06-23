@@ -20,7 +20,7 @@ header h1 {
     text-transform: uppercase;
 }
 
-main .desc-fondo {
+header .desc-fondo {
     height: 100vh;
     background-image: url(../img/bg-header.jpg);
     background-size: cover;
@@ -29,7 +29,6 @@ main .desc-fondo {
     opacity: 1;
     text-align: center;
 }
-
 
 #desc-section {
     background-color: #000000;
