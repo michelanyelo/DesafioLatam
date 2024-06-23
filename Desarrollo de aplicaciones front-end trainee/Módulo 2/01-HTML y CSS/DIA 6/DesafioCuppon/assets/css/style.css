@@ -1,0 +1,102 @@
+:root {
+    --font-family-roboto: "Roboto", sans-serif;
+    /* var fuente */
+    --font-weight-light: 300;
+    /* var fuente light */
+    --font-weight-semibold: 500;
+    /* var fuente bold */
+    --gris: #707070;
+    /* var color gris */
+    --dark: #212529;
+    /* var color derivado negro */
+    --white: #fff;
+    /* var color blanco */
+    --success: #28a745;
+    /* var success de la maqueta */
+}
+
+body {
+    font-family: var(--font-family-roboto);
+    font-weight: var(--font-weight-light);
+    background-color: var(--white);
+}
+
+/* NAVBAR */
+/* navbar-background */
+.new-bg-success {
+    background-color: var(--success);
+}
+
+#navbartop a {
+    color: var(--white)
+}
+
+#navbarcontainer {
+    padding: 10px 20px;
+}
+
+/* CUPONES */
+.cupon-titulo {
+    color: var(--dark);
+    font-weight: var(--font-weight-light);
+    font-size: 20px;
+    margin-bottom: 10px;
+}
+
+.card-descripcion p {
+    margin: 0;
+}
+
+.cupon-descripcion {
+    color: var(--gris);
+    font-size: 16px;
+}
+
+.cupon-ubicacion {
+    color: var(--gris);
+    font-size: 13px;
+}
+
+.cupon-separador {
+    color: #d7d7d7;
+    margin: 0;
+}
+
+.cupon-precio-normal {
+    font-size: 16px;
+    color: var(--gris);
+}
+
+.cupon-precio-oferta {
+    font-size: 20px;
+    font-weight: var(--font-weight-semibold);
+    color: var(--success);
+}
+
+/* FORMULARIO */
+.container-form {
+    background-color: var(--success);
+}
+
+.form-titulo {
+    color: var(--white);
+    font-weight: var(--font-weight-semibold);
+    font-size: 20px;
+}
+
+#form-nombre,
+#form-correo {
+    font-weight: var(--font-weight-light);
+    color: var(--gris);
+    font-size: 16px;
+}
+
+.btn-form {
+    color: var(--dark);
+    font-weight: var(--font-weight-semibold);
+}
+
+/* .mx-5{
+    margin-left: 15px !important;
+    margin-right: 50px !important;
+} */

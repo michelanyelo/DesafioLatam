@@ -1,0 +1,72 @@
+:root {
+    --font-bold: 500;
+    /* variable peso bold */
+    --font-light: 300;
+    /* variable peso light */
+    --font-16px: 16px;
+    --black-derivado: #212529;
+    --gris-derivado: #707070;
+}
+
+body {
+    font-family: 'Roboto';
+    font-weight: var(--font-light);
+}
+
+.new-bg-success {
+    background-color: #28A745;
+}
+
+.card .card-title {
+    font-weight: var(--font-light);
+    color: var(--black-derivado);
+}
+
+.card-proveedor {
+    font-size: var(--font-16px);
+    color: var(--gris-derivado);
+}
+
+.card-ubicacion {
+    font-size: 13px;
+    color: var(--gris-derivado);
+}
+
+.card-descripcion {
+    margin-top: 15px;
+}
+
+.card-descripcion p {
+    margin-bottom: auto;
+}
+
+.divisor {
+    color: #d7d7d7;
+}
+
+.precio-normal {
+    color: var(--gris-derivado);
+    font-size: var(--font-16px);
+}
+
+.precio-oferta {
+    color: #28A745;
+    font-size: 20px;
+    font-weight: var(--font-bold);
+}
+
+.form-correo,
+.form-nombre {
+    font-size: 16px;
+    color: var(--gris-derivado);
+}
+
+.form-titulo{
+    font-weight: var(--font-bold);
+    color: white;
+}
+
+.btn-enviar{
+    color: var(--black-derivado);
+    font-weight: var(--font-bold);
+}
