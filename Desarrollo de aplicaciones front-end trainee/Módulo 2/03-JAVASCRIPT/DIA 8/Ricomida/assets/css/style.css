@@ -1,0 +1,49 @@
+/* <!-- Tipografías:
+● Cabin
+● Lobster
+Google Fonts
+Weight:
+● Cabin Regular (400)
+● Cabin Bold (700)
+● Lobster Regular (400)
+Colores
+● #373a3c
+● #dddddd
+● #000 o var(--black)
+● #fff o var(--white)
+● #dc3545 o var(--danger) --> */
+
+:root {
+    --family-cabin: 'Cabin';
+    --family-lobster: 'Lobster';
+    --cabin-regular: 400;
+    --cabin-bold: 700;
+    --lobster-regular: 400;
+    --color-dark: #373a3c;
+    --color-light: #dddddd;
+    --black: #000;
+    --white: #fff;
+    --danger: #dc3545;
+}
+
+body * {
+    font-family: var(--family-cabin);
+    font-weight: var(--cabin-regular);
+}
+
+#titulo-nav {
+    font-size: 37px;
+    font-family: var(--family-lobster);
+}
+
+.separador {
+    border-top: 2px solid var(--black);
+    /* margin-top: 20px;
+    margin-bottom: 20px; */
+}
+
+.btn-destacado {
+    border: 1px solid var(--color-light) !important;
+    background-color: var(--white) !important;
+    font-size: 13px !important;
+}
