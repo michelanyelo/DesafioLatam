@@ -1,30 +1,108 @@
+/* variables locales */
 :root {
-    --white: #fff;
     --lightwhite: #E4EAE6;
     --bodybackground: #000;
-    --qsomosbackground: #09adce;
+    --celeste: #09adce;
+    --menunav: #259FAA;
+    --wtitulo: 600;
+    --wtexto: 300;
+    --hvrbtn: #18d4fa;
 }
 
+/* formato body */
 body {
     font-family: 'Roboto', sans-serif;
     color: var(--lightwhite);
     background-color: var(--bodybackground);
 }
 
-#qsomos {
-    min-height: 50vh;
+/* estilos a clases títulos */
+.qsomostitulo,
+.destacadostitulo,
+.contactotitulo {
+    text-transform: uppercase;
+    font-weight: var(--wtitulo);
+}
+
+/* alto contenedores y alineacion */
+#qsomos,
+#destacados,
+#contacto {
+    min-height: 60vh;
     align-content: center;
 }
 
-.qsomostitulo{
+/* QUIENES SOMOS SECTION */
+
+/* peso de elemento párrafo en qsomos section */
+#qsomos p {
+    font-weight: var(--wtexto);
+}
+
+/* estilo a span que contiene font awesome */
+.qsomosicon {
+    display: block;
+    background-color: var(--celeste);
+}
+
+/* estilos de font awesome */
+.qsomosicon i {
+    font-size: 28px;
+}
+
+/* DESTACADOS SECTION */
+/* estilos a clase card en descatados section */
+.cardestacados {
+    color: var(--lightwhite);
+    background-color: var(--celeste);
+}
+
+/* estilos a titulo de la card */
+.cardestacados .card-title {
+    font-weight: var(--wtitulo);
+}
+
+/* estilos a texto de la card */
+.cardestacados .card-text {
+    font-weight: var(--wtexto);
+}
+
+/* estilos a imagen de la card */
+.img-fixed {
+    width: 100%;
+    height: 200px;
+    object-fit: cover;
+}
+
+/* FORMULARIO SECTION */
+/* estilos al botón de enviar formulario */
+.contactobtn {
+    background-color: var(--celeste);
+}
+
+/* estilos a la propiedad hover del botón */
+.contactobtn:hover {
+    background-color: var(--hvrbtn);
+}
+
+/* FOOTER SECTION */
+/* estilos a elementos que contiene piepagina */
+#piepagina {
+    background-color: var(--menunav);
+    height: 100px;
+    align-content: center;
+    font-weight: var(--wtexto);
     text-transform: uppercase;
 }
 
-.qsomosicon {
-    display: block;
-    background-color: var(--qsomosbackground);
+/* estilos al texto viajes chile del footer */
+.piepaginatitulo {
+    font-weight: var(--wtexto);
 }
 
-.qsomosicon i{
+/* estilos a los iconos del footer */
+#piepagina i {
     font-size: 28px;
+    color: var(--lightwhite);
+    margin: 0px 10px;
 }
