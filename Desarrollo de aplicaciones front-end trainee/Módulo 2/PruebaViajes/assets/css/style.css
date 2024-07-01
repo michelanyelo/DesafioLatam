@@ -85,6 +85,10 @@ body {
     background-color: var(--hvrbtn);
 }
 
+.form-label {
+    font-weight: var(--wtexto);
+}
+
 /* FOOTER SECTION */
 /* estilos a elementos que contiene piepagina */
 #piepagina {
@@ -105,4 +109,9 @@ body {
     font-size: 28px;
     color: var(--lightwhite);
     margin: 0px 10px;
+}
+
+/* estilos a tooltips */
+.custom-tooltip {
+    --bs-tooltip-color: var(--hvrbtn);
 }

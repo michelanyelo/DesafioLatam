@@ -31,7 +31,7 @@
     <!-- hero section -->
     <section class="hero-section">
         <!-- menú navegación off canvas responsive-->
-        <nav class="navbar navbartop navbar-expand-md navbar-dark fixed-top bg-transparent"
+        <nav id="navbarviajes" class="navbar navbartop navbar-expand-md navbar-dark fixed-top bg-transparent"
             aria-label="Offcanvas navbar large">
             <div class="container">
                 <a href="#"><img class="navbartop-logo" src="assets/img/viajes.svg" alt="" width="30" height="24"></a>
@@ -49,17 +49,19 @@
                     </div>
                     <div class="offcanvas-body">
                         <ul class="navbar-nav ms-auto">
+                            <!-- enlaces con smooth scroll via bootstrap js -->
                             <li class="nav-item">
-                                <a class="nav-link active" aria-current="page" href="#">Inicio</a>
+                                <a class="nav-link active" aria-current="page" href="#" data-bs-smooth-scroll>
+                                    Inicio</a>
                             </li>
                             <li class="nav-item d-none d-sm-block">
-                                <a class="nav-link" href="#qsomos">Quienes Somos</a>
+                                <a class="nav-link" href="#qsomos" data-bs-smooth-scroll>Quienes Somos</a>
                             </li>
                             <li class="nav-item">
-                                <a class="nav-link" href="#destacados">Destacados</a>
+                                <a class="nav-link" href="#destacados" data-bs-smooth-scroll>Destacados</a>
                             </li>
                             <li class="nav-item">
-                                <a class="nav-link" href="#contacto">Contacto</a>
+                                <a class="nav-link" href="#contacto" data-bs-smooth-scroll>Contacto</a>
                             </li>
                         </ul>
                     </div>
@@ -67,7 +69,7 @@
             </div>
         </nav>
         <!-- carrusel bs -->
-        <div id="carruselViajes" class="carousel slide carousel-fade">
+        <div id="carruselviajes" class="carousel slide carousel-fade" data-bs-ride="carousel">
             <div class="carousel-inner">
                 <div class="carousel-item active">
                     <img src="assets/img/carousel1.jpg" class="d-block w-100"
@@ -81,11 +83,11 @@
                     <img src="assets/img/carousel3.jpg" class="d-block w-100" alt="Recorre la mágica Carretera Austral">
                 </div>
             </div>
-            <button class="carousel-control-prev" type="button" data-bs-target="#carruselViajes" data-bs-slide="prev">
+            <button class="carousel-control-prev" type="button" data-bs-target="#carruselviajes" data-bs-slide="prev">
                 <span class="carousel-control-prev-icon" aria-hidden="true"></span>
                 <span class="visually-hidden">Previous</span>
             </button>
-            <button class="carousel-control-next" type="button" data-bs-target="#carruselViajes" data-bs-slide="next">
+            <button class="carousel-control-next" type="button" data-bs-target="#carruselviajes" data-bs-slide="next">
                 <span class="carousel-control-next-icon" aria-hidden="true"></span>
                 <span class="visually-hidden">Next</span>
             </button>
@@ -236,13 +238,20 @@
         <div class="container">
             <div class="row">
                 <div class="col-sm-6 text-center">
-                    <h3 class="piepaginatitulo">Viajes chile</h3>
+                    <a class="link-light text-decoration-none" href="#">
+                        <h3 class="piepaginatitulo">Viajes chile</h3>
+                    </a>
                 </div>
+                <!-- íconos font awesome y tooltips bs personalizados -->
                 <div class="col-12 col-sm-6 text-center">
-                    <a href="https://www.github.com" target="_blank"><i class="fa-brands fa-square-github"></i></a>
-                    <a href="https://www.linkedin.com" target="_blank"><i class="fa-brands fa-linkedin"></i></a>
-                    <a href="https://x.com" target="_blank"><i class="fa-brands fa-square-x-twitter"></i></a>
-                    <a href="https://www.facebook.com" target="_blank"><i class="fa-brands fa-square-facebook"></i></a>
+                    <a href="https://www.github.com" target="_blank" data-bs-toggle="tooltip" data-bs-title="GitHub"
+                        data-bs-custom-class="custom-tooltip"><i class="fa-brands fa-square-github"></i></a>
+                    <a href="https://www.linkedin.com" target="_blank" data-bs-toggle="tooltip" data-bs-title="LinkedIn"
+                        data-bs-custom-class="custom-tooltip"><i class="fa-brands fa-linkedin"></i></a>
+                    <a href="https://x.com" target="_blank" data-bs-toggle="tooltip" data-bs-title="X"
+                        data-bs-custom-class="custom-tooltip"><i class="fa-brands fa-square-x-twitter"></i></a>
+                    <a href="https://www.facebook.com" target="_blank" data-bs-toggle="tooltip" data-bs-title="Facebook"
+                        data-bs-custom-class="custom-tooltip"><i class="fa-brands fa-square-facebook"></i></a>
                 </div>
             </div>
         </div>
