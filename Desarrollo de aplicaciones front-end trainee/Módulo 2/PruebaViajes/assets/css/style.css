@@ -1,0 +1,30 @@
+:root {
+    --white: #fff;
+    --lightwhite: #E4EAE6;
+    --bodybackground: #000;
+    --qsomosbackground: #09adce;
+}
+
+body {
+    font-family: 'Roboto', sans-serif;
+    color: var(--lightwhite);
+    background-color: var(--bodybackground);
+}
+
+#qsomos {
+    min-height: 50vh;
+    align-content: center;
+}
+
+.qsomostitulo{
+    text-transform: uppercase;
+}
+
+.qsomosicon {
+    display: block;
+    background-color: var(--qsomosbackground);
+}
+
+.qsomosicon i{
+    font-size: 28px;
+}

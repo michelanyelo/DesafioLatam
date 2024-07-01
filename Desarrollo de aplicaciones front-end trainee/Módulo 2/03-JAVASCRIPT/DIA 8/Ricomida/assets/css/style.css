@@ -29,6 +29,7 @@ Colores
 body * {
     font-family: var(--family-cabin);
     font-weight: var(--cabin-regular);
+    color: var(--color-dark);
 }
 
 #titulo-nav {
@@ -46,4 +47,54 @@ body * {
     border: 1px solid var(--color-light) !important;
     background-color: var(--white) !important;
     font-size: 13px !important;
+}
+
+.titulo-receta {
+    font-weight: var(--cabin-bold);
+    text-transform: uppercase;
+}
+
+.ingredientes {
+    color: var(--color-dark);
+}
+
+.ingredientes ul {
+    list-style: none;
+}
+
+.preparacion-ol li {
+    padding: 8px 0;
+}
+
+.recetas-relacionadas-titulo {
+    text-transform: uppercase;
+    color: var(--color-dark);
+}
+
+#newsletter {
+    height: 50vh;
+    align-content: center;
+    background-color: var(--danger);
+}
+
+.newsletter-subtitulo,
+.newsletter-subtitulo-recetas {
+    color: var(--white);
+}
+
+.newsletter-subtitulo {
+    font-weight: var(--cabin-bold);
+}
+
+.newsletter-ricomida {
+    font-family: var(--family-lobster);
+    font-weight: var(--lobster-regular);
+    font-size: 30px;
+}
+
+.carousel-indicators>button {
+    border-radius: 50%;
+    width: 12px !important;
+    height: 12px !important;
+    margin-top: 20px;
 }
