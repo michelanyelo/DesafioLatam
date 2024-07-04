@@ -1,0 +1,132 @@
+:root {
+  --black: #000000;
+  --html: #E93E30;
+  --javascript: #F7E018;
+  --css: #299ED5;
+  --react: #292C33;
+  --vue: #67C770;
+  --bootstrap: #563D7C;
+  --fregular: 400;
+  --fmedium: 500;
+  --fbold: 700;
+}
+
+body {
+  font-family: "Poppins", sans-serif;
+  background-color: white;
+  color: black;
+  max-width: 80vw;
+  margin: 30px auto;
+  padding: 0 1rem;
+}
+
+body,
+* {
+  box-sizing: border-box;
+}
+
+.header__container {
+  text-align: left;
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+}
+.header__logo {
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+}
+.header__logo img {
+  width: 55px;
+  height: 55px;
+  border-radius: 10px;
+}
+.header__title {
+  font-style: normal;
+  font-weight: var(--fbold);
+  font-size: 24px;
+  line-height: 36px;
+  margin-left: 10px;
+}
+.header__nav {
+  margin-left: auto;
+}
+
+.novedades__title {
+  font-weight: bold;
+  font-size: 2rem;
+  margin: 1rem 0;
+}
+.novedades__main {
+  display: flex;
+  justify-content: space-between;
+}
+.novedades__card--large {
+  flex: 2;
+  background-color: white;
+  border-radius: 0.5rem;
+  box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+  overflow: hidden;
+  margin-right: 1rem;
+}
+.novedades__side {
+  flex: 1;
+  display: flex;
+  flex-direction: column;
+  gap: 0.5rem;
+}
+.novedades__card {
+  background-color: white;
+  border-radius: 0.5rem;
+  box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+  overflow: hidden;
+  text-align: center;
+}
+.novedades .card__img--large {
+  width: 100%;
+  height: auto;
+}
+.novedades .card__body--large {
+  padding: 1rem;
+  text-align: left;
+}
+.novedades .novedades__card {
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  padding: 0rem 0.5rem;
+}
+.novedades .card__date {
+  font-size: 0.875rem;
+  color: #666666;
+  margin-bottom: 0.5rem;
+}
+.novedades .card__title {
+  font-size: 1.2rem;
+  font-weight: bold;
+}
+.novedades .card__footer {
+  display: flex;
+  align-items: center;
+  gap: 0.5rem;
+}
+.novedades .card__icon {
+  width: 30px;
+  height: 30px;
+  border-radius: 50%;
+}
+.novedades .card__text {
+  font-size: 1rem;
+  color: #333333;
+}
+.novedades .card__img {
+  width: 40%;
+  height: 80%;
+  -o-object-fit: cover;
+     object-fit: cover;
+  border-radius: 20px;
+}
+.novedades .card__body {
+  padding: 1rem;
+  text-align: left;
+}/*# sourceMappingURL=style.css.map */
