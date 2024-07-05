@@ -16,6 +16,7 @@
 </head>
 
 <body>
+    <!-- header -->
     <header class="header">
         <div class="container header__container">
             <div class="header__logo">
@@ -34,7 +35,7 @@
     <section class="container novedades">
         <h2 class="novedades__title">Novedades</h2>
         <div class="novedades__main">
-            <!-- Main card -->
+            <!-- Main large card -->
             <div class="novedades__card--large">
                 <img src="assets/img/posts/bootstrap.png" alt="Logo Bootstrap" class="card__img--large">
                 <div class="card__body--large">
@@ -42,11 +43,11 @@
                     <h2 class="card__title">Modifica el tema de Bootstrap con variables CSS</h2>
                     <div class="card__footer">
                         <img src="assets/img/logos/adl.png" alt="Logo Desafío Latam" class="card__icon">
-                        <p class="card__text">Desafío Latam</p>
+                        <p class="card__text--large">Desafío Latam</p>
                     </div>
                 </div>
             </div>
-            <!-- Side cards -->
+            <!-- Aside novedades -->
             <div class="novedades__side">
                 <div class="novedades__card">
                     <img src="assets/img/posts/Herencia-JS.png" alt="Herencia en JavaScript" class="card__img">
@@ -85,6 +86,102 @@
             </div>
         </div>
     </section>
+
+    <div class="container populares categorias">
+        <section class="populares__main">
+            <h2 class="populares__title">Populares</h2>
+            <!-- Main Populares -->
+            <div class="populares__container">
+                <div class="populares__card">
+                    <img src="assets/img/posts/vue-components.png" alt="Componentes Vue" class="card__img">
+                    <div class="card__body">
+                        <p class="card__date">24 Noviembre, 2022</p>
+                        <h3 class="card__title">Componentes Vue</h3>
+                        <div class="card__footer">
+                            <img src="assets/img/logos/adl.png" alt="Logo Desafío Latam" class="card__icon">
+                            <p class="card__text">Desafío Latam</p>
+                        </div>
+                    </div>
+                </div>
+                <div class="populares__card">
+                    <img src="assets/img/posts/api-js.png" alt="API JS" class="card__img">
+                    <div class="card__body">
+                        <p class="card__date">24 Noviembre, 2022</p>
+                        <h3 class="card__title">Consumo de API con JavaScript</h3>
+                        <div class="card__footer">
+                            <img src="assets/img/logos/adl.png" alt="Logo Desafío Latam" class="card__icon">
+                            <p class="card__text">Desafío Latam</p>
+                        </div>
+                    </div>
+                </div>
+                <div class="populares__card">
+                    <img src="assets/img/posts/sass.jpg" alt="CSS Reutilizable con Sass" class="card__img">
+                    <div class="card__body">
+                        <p class="card__date">24 Noviembre, 2022</p>
+                        <h3 class="card__title">CSS reutilizable con Sass</h3>
+                        <div class="card__footer">
+                            <img src="assets/img/logos/adl.png" alt="Logo Desafío Latam" class="card__icon">
+                            <p class="card__text">Desafío Latam</p>
+                        </div>
+                    </div>
+                </div>
+                <div class="populares__card">
+                    <img src="assets/img/posts/bootstrap.png" alt="Componentes Bootstrap" class="card__img">
+                    <div class="card__body">
+                        <p class="card__date">24 Noviembre, 2022</p>
+                        <h3 class="card__title">Componentes Bootstrap</h3>
+                        <div class="card__footer">
+                            <img src="assets/img/logos/adl.png" alt="Logo Desafío Latam" class="card__icon">
+                            <p class="card__text">Desafío Latam</p>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </section>
+        <section class="categorias__main">
+            <!-- Aside Categorias -->
+            <h2 class="categorias__title">Categorias</h2>
+            <div class="categorias--bg-html categorias__shape">
+                <img class="categorias__img" src="assets/img/logos/html.png" alt="HTML">
+                <h3 class="categorias__name">HTML</h3>
+            </div>
+            <div class="categorias--bg-js categorias__shape">
+                <img class="categorias__img" src="assets/img/logos/js.png" alt="JavaScript">
+                <h3 class="categorias__name">JavaScript</h3>
+            </div>
+            <div class="categorias--bg-css categorias__shape">
+                <img class="categorias__img" src="assets/img/logos/css.png" alt="CSS">
+                <h3 class="categorias__name">CSS</h3>
+            </div>
+            <div class="categorias--bg-react categorias__shape">
+                <img class="categorias__img" src="assets/img/logos/react.png" alt="React">
+                <h3 class="categorias__name">React</h3>
+            </div>
+            <div class="categorias--bg-vue categorias__shape">
+                <img class="categorias__img" src="assets/img/logos/vue.png" alt="Vue">
+                <h3 class="categorias__name">Vue</h3>
+            </div>
+            <div class="categorias--bg-bootstrap categorias__shape">
+                <img class="categorias__img" src="assets/img/logos/bootstrap-logo.png" alt="Bootstrap">
+                <h3 class="categorias__name">Bootstrap</h3>
+            </div>
+            <a href="#" class="categorias__link">Ver todas las categorías ></a>
+        </section>
+    </div>
+
+    <!-- footer reutilizando header -->
+    <footer class="footer">
+        <div class="container footer__container">
+            <div class="footer__logo">
+                <img src="assets/img/logos/adl.png" alt="Academia Desafio Latam">
+                <h1 class="footer__title">Blog FrontEnd</h1>
+            </div>
+            <nav class="footer__nav">
+                <a href="#" class="footer__nav-link">Desafío Latam - 2023</a>
+            </nav>
+        </div>
+    </footer>
+
 </body>
 
 </html>
