@@ -1,0 +1,21 @@
+input[type="checkbox"],
+input[type="email"],
+input[type="password"] {
+    border-radius: 5px;
+    border: 1px solid $border-color;
+}
+
+input[type="email"],
+input[type="password"] {
+    width: 100%;
+    @include element-spacing;
+    @include element-border;
+    padding-left: 1rem;
+    font-size: 1.2rem;
+    color: $text-color;
+}
+
+input[type="checkbox"] {
+    height: 1.5rem;
+    width: 1.5rem;
+}

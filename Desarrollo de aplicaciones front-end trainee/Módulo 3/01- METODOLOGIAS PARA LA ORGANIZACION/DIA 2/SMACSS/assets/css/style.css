@@ -1,0 +1,90 @@
+
+
+header img {
+    width: 80px;
+    position: relative;
+    float: left;
+    margin-right: 10px;
+    border-radius: 10px;
+}
+
+.header-title {
+    position: relative;
+    float: left;
+    margin-top: 20px;
+    color: #313335;
+}
+
+.subtitle {
+    margin-left: 20px;
+    color: #313335;
+}
+
+.tags {
+    background-color: #729E2E;
+    color: #fff;
+    font-weight: bold;
+}
+
+
+/* Widget categorías */
+
+
+.box {
+    margin: 10px auto;
+    width: 90%;
+    height: 65px;
+    border-radius: 5px;
+}
+
+.box-img {
+    height: 100%;
+    position: relative;
+    float: left;
+
+}
+
+.box-title {
+    font-size: 36px;
+    position: relative;
+    float: right;
+    margin-right: 30px;
+    color: #fff;
+    font-weight: bold;
+}
+
+.html {
+    background-color: #E93E30;
+}
+
+.css {
+    background-color: #299ED5;
+}
+
+.js {
+    background-color: #F7E018;
+}
+
+/* Footer */
+
+
+
+footer img {
+    width: 50px;
+    position: relative;
+    float: left;
+    margin-right: 10px;
+    border-radius: 10px;
+}
+
+footer h4 {
+    position: relative;
+    float: left;
+    margin-top: 15px;
+}
+
+footer p {
+    position: relative;
+    float: right;
+    margin-top: 15px;
+}

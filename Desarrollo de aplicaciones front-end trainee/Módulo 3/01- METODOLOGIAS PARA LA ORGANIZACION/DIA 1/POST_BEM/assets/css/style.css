@@ -1,0 +1,36 @@
+.post {
+  width: 18rem;
+  border-radius: 15px;
+  border: solid #111 2px;
+}
+.post__img {
+  width: 100%;
+  object-fit: cover;
+  overflow: hidden;
+}
+.post .user {
+  display: flex;
+  justify-content: flex-start;
+  align-items: center;
+  padding-left: 0.5rem;
+}
+.post .user__img {
+  width: 2rem;
+  border-radius: 50%;
+  object-fit: cover;
+  overflow: hidden;
+}
+.post .tags {
+  padding-left: 0.5rem;
+  padding-bottom: 0.5rem;
+  padding-top: 0.5rem;
+}
+.post .tags__tag {
+  text-transform: uppercase;
+  font-size: 0.8rem;
+}
+.post .tags__tag--blue {
+  color: rgb(31, 77, 204);
+}
+
+/*# sourceMappingURL=style.css.map */

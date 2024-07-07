@@ -1,0 +1,98 @@
+<!DOCTYPE html>
+<html lang="es">
+
+<head>
+  <meta charset="UTF-8" />
+  <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>Aplicando SMACSS</title>
+  <link rel="preconnect" href="https://fonts.googleapis.com" />
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+  <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@400;500;700&display=swap" rel="stylesheet" />
+  <link rel="stylesheet" href="assets/css/index.css" />
+</head>
+
+<body>
+  <div class="container">
+    <header id="header">
+      <img src="assets/image/adl.png" alt="">
+      <h2 class="header-title">Blog FrontEnd</h2>
+    </header>
+    <main id="main" class="main">
+      <h3 class="subtitle">Posts</h3>
+
+      <div class="card border text-subtle text-center">
+        <img class="card-img" src="assets/image/html.png" alt="">
+        <h4>Semántica HTML</h4>
+        <p class="card-text text-justify">Lorem ipsum dolor sit, amet consectetur adipisicing elit. Harum accusamus
+          laboriosam vitae iste nemo voluptate facilis repellat deserunt voluptatibus repellendus.</p>
+        <div class="tags">
+          <span>#Html</span>
+          <span>#FrontEnd</span>
+        </div>
+      </div>
+
+
+
+      <div class="card text-subtle border text-center">
+        <img class="card-img img-transparent img-rounded" src="assets/image/css.png" alt="">
+        <h4 class="text-bold">Flexbox</h4>
+        <p class="card-text text-justify">Lorem ipsum dolor sit, amet consectetur adipisicing elit. Harum accusamus
+          laboriosam vitae iste nemo voluptate facilis repellat deserunt voluptatibus repellendus.</p>
+        <div class="tags">
+          <span>#CSS</span>
+          <span>#FrontEnd</span>
+        </div>
+      </div>
+
+
+      <div class="card border">
+        <div class="text-center">
+          <img class="card-img" src="assets/image/js.png" alt="">
+        </div>
+        <h4 class="text-right">Herencia</h4>
+        <p class="card-text">Lorem ipsum dolor sit, amet consectetur adipisicing elit. Harum accusamus laboriosam vitae
+          iste nemo voluptate facilis repellat deserunt voluptatibus repellendus.</p>
+        <div class="tags">
+          <span>#JavaScript</span>
+          <span>#FrontEnd</span>
+        </div>
+      </div>
+
+
+      <div class="card border">
+        <img class="card-img" src="assets/image/html.png" alt="">
+        <h4>Formularios HTML</h4>
+        <p class="card-text">Lorem ipsum dolor sit, amet consectetur adipisicing elit. Harum accusamus laboriosam vitae
+          iste nemo voluptate facilis repellat deserunt voluptatibus repellendus.</p>
+        <div class="tags">
+          <span>#Html</span>
+          <span>#FrontEnd</span>
+        </div>
+      </div>
+    </main>
+    <!-- Widget categorías -->
+    <div id="aside" class="widget-container">
+      <h3 class="subtitle">Categorías</h3>
+      <div class="box html">
+        <img src="assets/image/html.png" class="box-img" alt="" />
+        <h3 class="box-title">HTML</h3>
+      </div>
+      <div class="box css">
+        <img src="assets/image/css.png" class="box-img" alt="" />
+        <h3 class="box-title">CSS</h3>
+      </div>
+      <div class="box js">
+        <img src="assets/image/js.png" class="box-img" alt="" />
+        <h3 class="box-title">JavaScript</h3>
+      </div>
+    </div>
+    <footer id="footer" class="border-top">
+      <img src="assets/image/adl.png" alt="">
+      <h4 class="subtitle">Blog FrontEnd</h4>
+      <p>Todos los derechos reservados - 2022</p>
+    </footer>
+  </div>
+</body>
+
+</html>

@@ -1,0 +1,7 @@
+.header {
+    @include element-flex-center;
+    height: 130px;
+    border-bottom: 2px solid #ccc;
+    margin-bottom: 20px;
+    padding: 0 2rem;
+}

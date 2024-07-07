@@ -1,0 +1,21 @@
+.logo {
+    @include element-flex-center;
+    width: 100%;
+}
+
+.logo__img {
+    width: 55px;
+    height: 55px;
+    border-radius: 10px;
+}
+
+.logo__text {
+    font-size: $font-title;
+    font-weight: 700;
+    margin-left: 20px;
+}
+
+.logo__google {
+    width: 35px;
+    height: 35px;
+}

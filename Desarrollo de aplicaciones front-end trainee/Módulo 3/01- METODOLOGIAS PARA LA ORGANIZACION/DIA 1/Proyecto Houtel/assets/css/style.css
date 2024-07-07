@@ -1,0 +1,88 @@
+body {
+  background-image: url(../img/background.jpg);
+  background-repeat: no-repeat;
+  background-size: cover;
+  box-sizing: border-box;
+}
+
+.logo__image {
+  height: 2rem;
+}
+
+.main {
+  color: white;
+  text-align: center;
+}
+.main__title {
+  font-size: 1.5rem;
+  font-family: "Open Sans";
+  font-weight: 400;
+}
+.main__title-emphasis {
+  display: block;
+  font-family: "Playfair Display", serif;
+  font-size: 8rem;
+  font-weight: bold;
+}
+.main__button {
+  display: block;
+  height: 3rem;
+}
+.main .button {
+  padding: 1rem 3rem;
+}
+.main .button--positive {
+  background-color: #44BBA4;
+  color: white;
+  border-radius: 5px;
+  border: none;
+  font-size: 1.2rem;
+  font-weight: 500;
+}
+
+.form {
+  height: 60vh;
+  width: 80vw;
+  background-color: white;
+  margin: 2rem auto;
+  padding: 0 2rem;
+  border-radius: 5px;
+  align-content: center;
+}
+.form__container,
+.form .button--default {
+  margin: 1rem auto;
+}
+.form__container {
+  display: flex;
+  flex-direction: column;
+  width: 80vw;
+}
+.form__label {
+  color: #5D6163;
+  font-family: "Open Sans";
+}
+.form .button {
+  display: block;
+  font-family: "Open Sans";
+}
+.form .button--default {
+  padding: 0.5rem 2rem;
+  background-color: #E94F37;
+  font-family: "Open Sans";
+  color: white;
+  font-size: 1.2rem;
+  font-weight: bold;
+  border: none;
+  border-radius: 5px;
+}
+.form__input-text, .form__input-date, .form__select {
+  height: 2.5rem;
+  margin-top: 0.5rem;
+  font-family: "Open Sans";
+  border: 1px solid #BABABA;
+  border-radius: 5px;
+  font-size: medium;
+}
+
+/*# sourceMappingURL=style.css.map */
