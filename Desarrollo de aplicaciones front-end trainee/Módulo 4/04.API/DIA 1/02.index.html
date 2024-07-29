@@ -1,0 +1,92 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <!-- jquery -->
+    <script src="https://code.jquery.com/jquery-3.7.1.min.js"
+        integrity="sha256-/JqT3SQfawRcv/BIHPThkBvs0OEvtFFmqPF/lYI/Cxo=" crossorigin="anonymous"></script>
+</head>
+
+<body>
+    <!-- filtros de posicion -->
+    <h2>Filtro de posicion</h2>
+    <table>
+        <tr>
+            <td>Row 1</td>
+            <td>Row 2</td>
+            <td>Row 3</td>
+        </tr>
+        <tr>
+            <td>Row 4</td>
+            <td>Row 5</td>
+            <td>Row 6</td>
+        </tr>
+        <tr>
+            <td>Row 7</td>
+            <td>Row 8</td>
+            <td>Row 9</td>
+        </tr>
+    </table>
+
+    <!-- filtros hijo -->
+    <h2>Filtro hijo</h2>
+    <div>
+        <span>Juan,</span>
+        <span>Carlos,</span>
+        <span>Manuel,</span>
+        <span>María</span>
+    </div>
+    <div>
+        <span>Rosa,</span>
+        <span>Daniela,</span>
+        <span>Pedro,</span>
+        <span>Paola</span>
+    </div>
+
+    <!-- filtros form -->
+    <h2>Filtro form</h2>
+    <select name="paises" class="paises">
+        <option value="Argentina">Argentina</option>
+        <option value="Chile" selected>Chile</option>
+        <option value="Brasil">Brasil</option>
+    </select>
+
+    <!-- eventos con jquery -->
+    <h2>Evento Change</h2>
+    <p class="resultado"></p>
+    <select name="pais" id="pais">
+        <option value="Argentina">Argentina</option>
+        <option value="Perú">Perú</option>
+        <option value="Chile">Chile</option>
+        <option value="Venezuela">Venezuela</option>
+    </select>
+
+    <h2>Evento ON</h2>
+    <ul>
+        <li>item 1</li>
+        <li>item 2</li>
+        <li>item 3</li>
+        <li>item 4</li>
+        <li>item 5</li>
+        <li>item 6</li>
+    </ul>
+    <button id="btn">Seleccionar</button>
+
+    <!-- contar los clicks -->
+    <h2>Contador de clicks</h2>
+    <h3>Clic en la imagen</h3>
+    <img id="ejemplo" src="https://desafiolatam.com/assets/images/home/logo-academia-ne.png" alt="DL" />
+
+    <!-- animaciones -->
+    <h2>Toggle</h2>
+    <p>Desafío</p>
+    <p style="display: none">Latam</p>
+    <button>Cambio</button>
+
+    <script src="02.main.js"></script>
+</body>
+
+</html>
