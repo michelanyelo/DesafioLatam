@@ -1,0 +1,101 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+
+<body>
+
+    <script>
+        // Crear una función constructora para cada objeto
+        function Paciente(nombre, apellido, edad, direccion, telefono) {
+            this.nombre = nombre;
+            this.apellido = apellido;
+            this.edad = edad;
+            this.direccion = direccion;
+            this.telefono = telefono;
+        }
+
+        //Implementar métodos getters y setters
+        Paciente.prototype.getNombre = function () {
+            return this.nombre;
+        };
+
+        Paciente.prototype.setNombre = function (nombre) {
+            this.nombre = nombre;
+        };
+
+        Paciente.prototype.getApellido = function () {
+            return this.apellido;
+        };
+
+        Paciente.prototype.setApellido = function (apellido) {
+            this.apellido = apellido;
+        };
+
+        Paciente.prototype.getEdad = function () {
+            return this.edad;
+        };
+
+        Paciente.prototype.setEdad = function (edad) {
+            this.edad = edad;
+        };
+
+        Paciente.prototype.getDireccion = function () {
+            return this.direccion;
+        };
+
+        Paciente.prototype.setDireccion = function (direccion) {
+            this.direccion = direccion;
+        };
+
+        Paciente.prototype.getTelefono = function () {
+            return this.telefono;
+        };
+
+        Paciente.prototype.setTelefono = function (telefono) {
+            this.telefono = telefono;
+        };
+
+        // Crear métodos para buscar y mostrar todos los datos
+
+        Paciente.prototype.mostrarDatos = function () {
+            console.log(`Nombre: ${this.nombre}, Apellido: ${this.apellido}, Edad: ${this.edad}, Dirección: ${this.direccion}, Teléfono: ${this.telefono}`);
+        };
+
+        Paciente.buscarPorNombre = function (pacientes, nombre) {
+            return pacientes.filter(paciente => paciente.getNombre().toLowerCase() === nombre.toLowerCase());
+        };
+
+        Paciente.mostrarTodos = function (pacientes) {
+            pacientes.forEach(paciente => paciente.mostrarDatos());
+        };
+
+
+        // Instanciar cada objeto utilizando la instrucción new
+
+        // Crear instancias de Paciente
+        let paciente1 = new Paciente('Juan', 'Pérez', 30, 'Calle 123', '123456789');
+        let paciente2 = new Paciente('María', 'González', 25, 'Avenida 456', '987654321');
+        let paciente3 = new Paciente('Pedro', 'Martínez', 40, 'Boulevard 789', '564738291');
+
+        // Almacenar pacientes en un array
+        let pacientes = [paciente1, paciente2, paciente3];
+
+        // Mostrar todos los pacientes
+        console.log('Todos los pacientes:');
+        Paciente.mostrarTodos(pacientes);
+
+        // Buscar paciente por nombre
+        let nombreABuscar = 'María';
+        console.log(`\nBuscando paciente por nombre: ${nombreABuscar}`);
+        let pacientesEncontrados = Paciente.buscarPorNombre(pacientes, nombreABuscar);
+        Paciente.mostrarTodos(pacientesEncontrados);
+
+    </script>
+</body>
+
+</html>
