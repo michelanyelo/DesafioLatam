@@ -15,18 +15,18 @@ class Impuestos {
 
     // setters
     set montoBrutoAnual(value) {
-        if (typeof(value) === 'number') {
+        if (typeof (value) === 'number') {
             this._montoBrutoAnual = value;
         } else {
-            console.log("El monto bruto anual debe ser numérico");
+            this._montoBrutoAnual = 123213;
         }
     }
 
     set deducciones(value) {
-        if (typeof(value) === 'number') {
+        if (typeof (value) === 'number') {
             this._deducciones = value;
         } else {
-            console.log("Las deducciones deben ser numéricas");
+            this._deducciones = NaN;
         }
     }
 }

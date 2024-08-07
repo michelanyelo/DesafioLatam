@@ -21,7 +21,7 @@ class Cliente {
     // método calcular impuesto
     calcularImpuesto() {
         if (this._impuesto) {
-            return ((this._impuesto.montoBrutoAnual - this._impuesto.deducciones) * 0.21);
+            return (this._impuesto.montoBrutoAnual - this._impuesto.deducciones) * 0.21;
         } else {
             console.log("Impuesto no definido correctamente");
             return "Imposible de calcular";
