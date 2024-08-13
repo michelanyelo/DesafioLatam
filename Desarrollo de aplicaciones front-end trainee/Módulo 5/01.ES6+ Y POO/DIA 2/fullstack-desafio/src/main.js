@@ -1,6 +1,6 @@
 // importaciones
-import Impuestos from "./Impuestos.mjs";
-import Cliente from "./Cliente.mjs";
+import Impuestos from "./impuestos.js";
+import Cliente from "./cliente.js";
 
 document.addEventListener('DOMContentLoaded', () => {
     const formImpuestos = document.getElementById('formImpuestos');
